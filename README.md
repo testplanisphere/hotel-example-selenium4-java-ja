@@ -26,18 +26,17 @@ https://hotel.testplanisphere.dev/ja/
 
 * [Gradle](https://gradle.org/)
 
-#### 静的解析ツール
-
-* [Checkstyle](https://checkstyle.sourceforge.io/)
-
 ### 実行方法
 
 #### 必須環境
 
-* JDK 11
+* JDK 17
 * Google Chrome
+* [ChromeDriver](https://chromedriver.chromium.org/downloads)
 
-#### テスト・静的解析の実行
+ChromeDriverはダウンロードして環境変数PATHの通った場所に置いてください。
+
+#### テストの実行
 
 ##### Windows
 
