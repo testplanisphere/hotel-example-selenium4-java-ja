@@ -76,7 +76,7 @@ class LoginTest {
     loginPage.doLoginExpectingFailure("error@example.com", "error");
 
     assertAll("エラーメッセージ",
-        () -> assertEquals("メールアドレスまたパスワードが違います。", loginPage.getEmailMessage()),
+        () -> assertEquals("メールアドレスまたはパスワードが違います。", loginPage.getEmailMessage()),
         () -> assertEquals("メールアドレスまたはパスワードが違います。", loginPage.getPasswordMessage())
     );
   }
