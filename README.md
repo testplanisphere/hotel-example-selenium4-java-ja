@@ -42,13 +42,13 @@ https://hotel.testplanisphere.dev/ja/
 ##### Windows
 
 ```
-gradlew.bat clean check
+gradlew.bat clean test
 ```
 
 ##### macOS/Linux
 
 ```
-./gradlew clean check
+./gradlew clean test
 ```
 
 ### 変更履歴
