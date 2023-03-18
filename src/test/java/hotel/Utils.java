@@ -19,7 +19,7 @@ public class Utils {
     var githubActions = Boolean.parseBoolean(System.getenv("GITHUB_ACTIONS"));
     var options = new ChromeOptions();
     if (githubActions) {
-      options.addArguments("--headless=new");
+      options.addArguments("--headless=old");
     }
     var driver = new ChromeDriver(options);
     driver.manage().window().setSize(new Dimension(1920, 1080));
