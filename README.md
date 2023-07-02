@@ -32,9 +32,6 @@ https://hotel.testplanisphere.dev/ja/
 
 * JDK 17
 * Google Chrome
-* [ChromeDriver](https://chromedriver.chromium.org/downloads)
-
-ChromeDriverはダウンロードして環境変数PATHの通った場所に置いてください。
 
 #### テストの実行
 
