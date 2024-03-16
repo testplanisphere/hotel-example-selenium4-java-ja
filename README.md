@@ -30,7 +30,7 @@ https://hotel.testplanisphere.dev/ja/
 
 #### 必須環境
 
-* JDK 17
+* JDK 21
 * Google Chrome
 
 #### テストの実行
