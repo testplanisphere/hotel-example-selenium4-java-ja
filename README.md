@@ -1,6 +1,7 @@
 # hotel-example-selenium4-java-ja
 
 [![selenium4-java-ja](https://github.com/takeyaqa/hotel-example-selenium4-java-ja/actions/workflows/test.yml/badge.svg)](https://github.com/takeyaqa/hotel-example-selenium4-java-ja/actions/workflows/test.yml)
+
 このプロジェクトはテスト自動化学習のためのサンプルコードです。
 
 ### テスト対象
