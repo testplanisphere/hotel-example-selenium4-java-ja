@@ -21,7 +21,7 @@
 
 ### テスト対象
 
-https://hotel.testplanisphere.dev/ja/
+https://hotel-example-site.takeyaqa.dev/ja/
 
 ### 概要
 

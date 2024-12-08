@@ -2,6 +2,8 @@ package hotel;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Objects;
+
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Utils {
 
-  public static final String BASE_URL = "https://hotel.testplanisphere.dev/ja";
+  public static final String BASE_URL = Objects.requireNonNullElse(System.getenv("BASE_URL"), "https://hotel-example-site.takeyaqa.dev/ja");
 
   private Utils() {
     throw new AssertionError();
