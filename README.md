@@ -6,13 +6,14 @@
 
 ## リポジトリ移動のお知らせ
 
-このリポジトリは現在、個人所有に移行しました。以前は [Test Planisphere](https://github.com/testplanisphere) によって管理されていましたが、今後は [@takeyaqa](https://github.com/takeyaqa) によって管理されます。
-
-リポジトリの新しいURLはこちらです：
-
-https://github.com/takeyaqa/hotel-example-selenium4-java-ja
-
-この変更により、リポジトリの内容や目的に影響はありませんが、クローンしたりフォークしたプロジェクトのリモートURLを更新する必要がある場合があります。
+> [!IMPORTANT]
+> このリポジトリは現在、個人所有に移行しました。以前は [Test Planisphere](https://github.com/testplanisphere) によって管理されていましたが、今後は [@takeyaqa](https://github.com/takeyaqa) によって管理されます。
+>
+> リポジトリの新しいURLはこちらです：
+> 
+> [https://github.com/takeyaqa/hotel-example-selenium4-java-ja](https://github.com/takeyaqa/hotel-example-selenium4-java-ja)
+> 
+> この変更により、リポジトリの内容や目的に影響はありませんが、クローンしたりフォークしたプロジェクトのリモートURLを更新する必要がある場合があります。
 
 ---
 
