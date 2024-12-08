@@ -48,7 +48,7 @@ class PlansTest {
 
     assertAll("プラン一覧",
         () -> assertEquals(7, planTitles.size()),
-        () -> assertEquals("お得な特典付きプラン", planTitles.get(0)),
+        () -> assertEquals("お得な特典付きプラン", planTitles.getFirst()),
         () -> assertEquals("素泊まり", planTitles.get(1)),
         () -> assertEquals("出張ビジネスプラン", planTitles.get(2)),
         () -> assertEquals("エステ・マッサージプラン", planTitles.get(3)),
@@ -72,7 +72,7 @@ class PlansTest {
 
     assertAll("プラン一覧",
         () -> assertEquals(9, planTitles.size()),
-        () -> assertEquals("お得な特典付きプラン", planTitles.get(0)),
+        () -> assertEquals("お得な特典付きプラン", planTitles.getFirst()),
         () -> assertEquals("ディナー付きプラン", planTitles.get(1)),
         () -> assertEquals("お得なプラン", planTitles.get(2)),
         () -> assertEquals("素泊まり", planTitles.get(3)),
@@ -98,7 +98,7 @@ class PlansTest {
 
     assertAll("プラン一覧",
         () -> assertEquals(10, planTitles.size()),
-        () -> assertEquals("お得な特典付きプラン", planTitles.get(0)),
+        () -> assertEquals("お得な特典付きプラン", planTitles.getFirst()),
         () -> assertEquals("プレミアムプラン", planTitles.get(1)),
         () -> assertEquals("ディナー付きプラン", planTitles.get(2)),
         () -> assertEquals("お得なプラン", planTitles.get(3)),
