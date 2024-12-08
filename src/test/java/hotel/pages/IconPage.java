@@ -8,11 +8,11 @@ import org.openqa.selenium.support.Color;
 
 public class IconPage {
 
-  private WebDriver driver;
+  private final WebDriver driver;
 
   public IconPage(WebDriver driver) {
     this.driver = driver;
-    if (!this.driver.getTitle().startsWith("アイコン設定")) {
+    if (this.driver.getTitle() == null || !this.driver.getTitle().startsWith("アイコン設定")) {
       throw new IllegalStateException("現在のページが間違っています: " + this.driver.getTitle());
     }
   }

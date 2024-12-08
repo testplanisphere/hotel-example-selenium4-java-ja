@@ -24,11 +24,11 @@ public class SignupPage {
     }
   }
 
-  private WebDriver driver;
+  private final WebDriver driver;
 
   public SignupPage(WebDriver driver) {
     this.driver = driver;
-    if (!this.driver.getTitle().startsWith("会員登録")) {
+    if (this.driver.getTitle() == null || !this.driver.getTitle().startsWith("会員登録")) {
       throw new IllegalStateException("現在のページが間違っています: " + this.driver.getTitle());
     }
   }

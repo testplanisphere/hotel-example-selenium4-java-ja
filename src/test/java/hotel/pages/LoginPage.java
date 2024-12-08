@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
 
-  private WebDriver driver;
+  private final WebDriver driver;
 
   public LoginPage(WebDriver driver) {
     this.driver = driver;
-    if (!this.driver.getTitle().startsWith("ログイン")) {
+    if (this.driver.getTitle() == null || !this.driver.getTitle().startsWith("ログイン")) {
       throw new IllegalStateException("現在のページが間違っています: " + this.driver.getTitle());
     }
   }
